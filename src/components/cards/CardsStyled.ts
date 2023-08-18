@@ -7,7 +7,7 @@ export const CardWrapper = styled.div`
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
   width: calc(100% - 32px);
-  height: 246px;
+  height: 248px;
   min-width: min(calc(100% - 4px), 260px);
   max-width: 567px;
 
@@ -62,7 +62,6 @@ export const CardWrapper = styled.div`
     &__grouping {
       display: flex;
       align-items: center;
-      margin-top: 10px;
       gap: 12px;
       flex-direction: row;
       justify-content: space-between;
