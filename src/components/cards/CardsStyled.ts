@@ -7,7 +7,7 @@ export const CardWrapper = styled.div`
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
   width: calc(100% - 32px);
-  height: 260px;
+  height: 246px;
   min-width: min(calc(100% - 4px), 260px);
   max-width: 567px;
 
@@ -78,8 +78,6 @@ export const CardWrapper = styled.div`
       font-size: 12px;
       display: flex;
       font-weight: 400;
-      margin-top: 10px;
-
       color: #404040;
       flex-direction: row;
       justify-content: space-around;
