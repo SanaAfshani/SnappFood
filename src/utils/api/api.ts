@@ -1,4 +1,4 @@
-import axios, {AxiosInstance, AxiosRequestConfig, AxiosResponse} from "axios";
+import axios, {AxiosInstance, AxiosResponse, InternalAxiosRequestConfig} from "axios";
 
 // Create a new Axios instance
 const request: AxiosInstance = axios.create({
@@ -9,7 +9,7 @@ const request: AxiosInstance = axios.create({
 
 // Request interceptor
 request.interceptors.request.use(
-    (config: AxiosRequestConfig) => {
+    (config:InternalAxiosRequestConfig<any>) => {
         // Modify the request config (add headers, authentication, etc.)
         return config;
     },
